@@ -13,15 +13,15 @@ API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_ID = getenv("BOT_ID")
+BOT_ID = getenv("7964687148")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","ZeoXpro")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "AqiaBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Dsrdxmusicbot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "Aqia")
+BOT_NAME = getenv("BOT_NAME" , "dard")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "AqiaPro")
+ASSUSERNAME = getenv("ASSUSERNAME" , "dardmusic")
 # ---------------------------------------------------------
 
 
@@ -37,11 +37,11 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID"))
-CLONE_LOGGER = LOGGER_ID
+LOGGER_ID = int(getenv("1003611270450"))
+CLONE_LOGGER = 1003611270450
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7355202884))
+OWNER_ID = int(getenv("OWNER_ID", 8211189367))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -54,7 +54,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-SOURCE = getenv("SOURCE", "https://github.com/TeamProBots/Clonify")
+SOURCE = getenv("SOURCE", "https://github.com/rajayns42-design/Clonify")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/TeamProBots/Clonify",
@@ -72,9 +72,9 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ProBotts")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ProBotGc")
-CHAT = getenv("CHAT", "https://t.me/ProBotGc")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Love_Bot_143")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Love_familysupport")
+CHAT = getenv("CHAT", "https://t.me/Love_familysupport")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -149,15 +149,15 @@ STREAMI_PICS = [
 ]
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://i.ibb.co/xPjc7tv/help-menu.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/t6p8mp.jpg"
 )
 
 HELP_IMG_URL = getenv(
-    "HELP_IMG_URL", "https://i.ibb.co/xPjc7tv/help-menu.jpg"
+    "HELP_IMG_URL", "https://files.catbox.moe/v9si9p.jpg"
 )
 
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://i.ibb.co/VWnm6f3f/ping.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/e3kv9e.jpg"
 )
 PLAYLIST_IMG_URL = "https://i.ibb.co/gL3ykkyh/play-music.jpg"
 STATS_IMG_URL = "https://i.ibb.co/pBqPtFYn/statistics.jpg"

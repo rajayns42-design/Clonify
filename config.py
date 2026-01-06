@@ -52,12 +52,12 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # ----------------------------------------------------------------
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
-#https://github.com/rajayns42-design/Clonify/blob/65be6df5c4529cfd30d0f80cac1e14cdb5930f71/config.py#L58
+#-----------------------------------------------------------------
 # ----------------------------------------------------------------
 SOURCE = getenv("SOURCE", "https://github.com/rajayns42-design/Clonify")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TeamProBots/Clonify",
+    "https://github.com/rajayns42-design/Clonify",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(

@@ -143,8 +143,8 @@ confirmer = {}
 # ------------------------------------------------------------------------
 
 STREAMI_PICS = [
-"https://i.ibb.co/whgkNq6n/start-img-1.jpg",
-"https://i.ibb.co/q32FdssH/start-img-2.jpg",
+"https://files.catbox.moe/e3kv9e.jpg",
+"https://files.catbox.moe/e3kv9e.jpg",
 
 ]
 
@@ -163,7 +163,7 @@ PLAYLIST_IMG_URL = "https://i.ibb.co/gL3ykkyh/play-music.jpg"
 STATS_IMG_URL = "https://i.ibb.co/pBqPtFYn/statistics.jpg"
 TELEGRAM_AUDIO_URL = "https://i.ibb.co/gL3ykkyh/play-music.jpg"
 TELEGRAM_VIDEO_URL = "https://i.ibb.co/gL3ykkyh/play-music.jpg"
-STREAM_IMG_URL = "https://i.ibb.co/0VKCS20y/stream.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/e3kv9e.jpg"
 SOUNCLOUD_IMG_URL = "https://i.ibb.co/S4sPf3q8/soundcloud.jpg"
 YOUTUBE_IMG_URL = "https://i.ibb.co/xShkBVBK/youtube.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/XZfMS8Db/spotify.jpg"

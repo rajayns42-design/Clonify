@@ -26,7 +26,7 @@ from Clonify.utils.database import (
     skip_on,
 )
 from Clonify.utils.decorators.admins import ActualAdminCB
-from Clonify.utils.decorators.language import language, languageCB
+from Clonifyutils.decorators.language import language, languageCB
 from Clonify.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
@@ -35,7 +35,21 @@ from Clonify.utils.inline.settings import (
 )
 from Clonify.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
+from pyrogram.types import InputMediaVideo, InlineKeyboardMarkup, InlineKeyboardButton
 
+@app.on_callback_query(filters.regex("clone_me"))
+async def gib_repo_callback(_, callback_query):
+    await callback_query.edit_message_media(
+        media=InputMediaVideo(
+            media="https://files.catbox.moe/b0da9c.mp4",
+            has_spoiler=True,
+            caption="❖ ʏᴏᴜ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴍᴜsɪᴄ ʙʏ ᴡᴀᴛᴄʜɪɴɢ ᴛʜᴇ ᴠɪᴅᴇᴏ ᴄᴀʀᴇғᴜʟʟʏ\n๏ ᴛᴀᴘ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴀɴᴅ ɢᴏ ᴛᴏ ᴄʟᴏɴᴇ ʜᴏsᴛᴇʀ ʙᴏᴛ"
+        ),
+        reply_markup=InlineKeyboardMarkup([
+            [InlineKeyboardButton(text="ᴄʜᴇʀʀʏ", url="https://t.me/CherryXMusiccBot")],
+            [InlineKeyboardButton(text="• ᴄʟᴏsᴇ •", callback_data="close")]
+        ])
+    )
 
 @app.on_message(
     filters.command(["settings", "setting"]) & filters.group & ~BANNED_USERS

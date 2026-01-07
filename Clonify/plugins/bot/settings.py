@@ -26,7 +26,7 @@ from Clonify.utils.database import (
     skip_on,
 )
 from Clonify.utils.decorators.admins import ActualAdminCB
-from Clonifyutils.decorators.language import language, languageCB
+from Clonify.utils.decorators.language import language, languageCB
 from Clonify.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
